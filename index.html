@@ -12,13 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-  <body class="bg-[#E4ECFF] font-['Poppins']">
-    <header>
+  <body class="font-['Poppins']">
+    <header class="bg-linear-to-b from-[#E4ECFF] to-white">
       <div class="flex flex-row justify-between items-center p-[20px] h-[59px] w-full border-b-[0.5px] border-[#8480AE29]">
         <img src="assets/images/logo.png" alt="logo" class="h-[17px]">
         <img src="assets\icons\menu-icon.svg" alt="menu-bar" class=" h-[20px] w-[20px]">
       </div>
-      <div class="h-[300px] flex justify-center pt-[80px]">
+      <div class="flex justify-center items-center relative">
+        <div class="h-[300px] pt-[80px] relative left-[-22px]">
         <div class="bg-[#B9CCFE] w-[202px] h-[202px] rounded-[30px] flex justify-center items-center text-[#B9CCFE] relative">tt
           <div class="absolute w-[120px] h-[220px] bottom-[32px]">
             <img src="assets\images\avatar-body.png" class="scale-115">
@@ -56,7 +57,23 @@
             <span class="inline-block text-[8px] text-[#333333] absolute font-semibold left-[43px] top-[23px] leading-[9.5px]">Send a message to Ilya Zinchenko</span>
           </div>
         </div>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-[25px] pt-[50px] pb-[50px]">
+        <h1 class="flex justify-center items-center text-[14px] text-[rgba(41,63,204,0.7)] w-[192px] h-[40px] bg-white rounded-[10px] font-semibold">Welcome QuickSpace</h1>
+        <h2 class="text-[32px] w-[317px] h-[153px] text-[#090F4E] font-semibold text-center flex items-center">Satisfied Customer Is the Best Business Strategy</h2>
+        <h3 class="text-[16px] w-[343px] h-[89px] text-[rgba(99,101,126,0.7)] text-center flex items-center">Backed with vast experience and fully up to date skills set, at Enuke Software offer the best in class E-Prescription solution</h3>
+        <button class="bg-[#293FCC] w-[223px] h-[60px] text-white text-[18px] font-[600] rounded-[6px]">Try Free</button>
+        <div class="flex justify-center items-center gap-[10px]">
+          <img src="assets\icons\play-video.svg" class="border-[1px] border-[#293FCC] rounded-full">
+          <a href="https://www.pexels.com/search/cat/" class="#0B0757 text-[16px] text-[#0B0757]">View Demo</a>
+        </div>
       </div>
     </header>
+    <div class="flex justify-around pt-[35px]">
+      <img src="assets\icons\brand-1.svg" class="">
+      <img src="assets\icons\brand-2.svg" class="">
+      <img src="assets\icons\brand-3.svg" class="">
+    </div>
   </body>
 </html>
